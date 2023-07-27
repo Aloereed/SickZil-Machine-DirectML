@@ -1,8 +1,8 @@
 <!--
  * @Author: 
  * @Date: 2023-07-27 09:45:59
- * @LastEditors: 
- * @LastEditTime: 2023-07-27 09:50:16
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2023-07-27 09:56:42
  * @Description: file content
 -->
 SickZil-Machine-DirectML
@@ -34,7 +34,7 @@ SickZil-Machine **在漫画/漫画翻译（扫描）过程中自动删除文本*
 怎么运行的？？
 -----
 ### 模型
-![szmc-struct-eng](doc/szmc-struct-eng.png)
+![szmc-struct-eng](doc/szmc-structure-eng.png)
 
 SickZil-Machine 找出漫画/漫画中的文本并自然地将其擦除以匹配背景。\
 **这两个过程都是完全自动的**，无需任何额外的人工干预。\
@@ -75,11 +75,11 @@ SickZil-Machine 并不是一个完美的程序。 我们需要你的帮助。 \
 
 本机 Windows 上的 TensorFlow with DirectML 包从 Windows 10 版本 1709（内部版本 16299 或更高版本）开始运行。 您可以通过运行命令（Windows 徽标键 + R）运行 winver 来检查您的版本号。 （tensorflow-directml 1.15.0 要求）
 
-0. `git clone https://github.com/Aloereed/SickZil-Machine-DirectML.git; cd SickZil-Machine-DirectML`
-1. 从[此处](https://github.com/KUR-creative/SickZil-Machine/releases)下载发布 zip 文件之一。
-2.解压release文件并复制`SickZil-Machine-0.1.1-pre0-win64-cpu-eng/resource/cnet`和`SickZil-Machine-0.1.1-pre0-win64-cpu-eng/resource/snet ` 目录到 `SickZil-Machine-DirectML/resource`。
-3.`cd src； pip install -r requests.txt`
-4.`python main.py`
+0. `git clone https://github.com/Aloereed/SickZil-Machine-DirectML.git; cd SickZil-Machine-DirectML`  
+1. 从[此处](https://github.com/KUR-creative/SickZil-Machine/releases)下载发布 zip 文件之一。  
+2. 解压release文件并复制`SickZil-Machine-0.1.1-pre0-win64-cpu-eng/resource/cnet`和`SickZil-Machine-0.1.1-pre0-win64-cpu-eng/resource/snet ` 目录到 `SickZil-Machine-DirectML/resource`。  
+3. `cd src; pip install -r requests.txt`  
+4. `python main.py`  
 
 未来的作品
 -----

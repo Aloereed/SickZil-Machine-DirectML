@@ -1,6 +1,7 @@
 SickZil-Machine-DirectML
 ===============
-<sup>English | [한국어](README.ko_kr.md) | [汉语](README.zh.md)</sup>
+<sup>English | [한국어](README.ko_kr.md) | [汉语](README.zh.md)</sup>  
+Forked from [KUR-creative/SickZil-Machine](https://github.com/KUR-creative/SickZil-Machine).  
 
 Notice
 ------
